@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-04-08T13:56:35.365Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="gTxkH-1rZSc5lq3cCY2U" version="14.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-09T14:27:20.265Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="qtSzfFypaDmrA5xBEx0c" version="14.5.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1131" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="ez880dVHIVuCgmiljGzb-1" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;Staff" style="html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="250" y="300" width="110" height="50" as="geometry" />
+          <mxGeometry x="240" y="235" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ez880dVHIVuCgmiljGzb-2" value="Customer" style="html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="60" y="140" width="110" height="50" as="geometry" />
@@ -13,11 +13,23 @@
         <mxCell id="ZUsl4Q0QTKhwD85ZHyG3-0" value="Car" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="470" y="230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="07rFvq7O-HwLPc1QNcso-0" value="Staff" style="html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="07rFvq7O-HwLPc1QNcso-0" value="Rental Center Staff" style="html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="160" y="370" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="07rFvq7O-HwLPc1QNcso-1" value="Staff" style="html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="07rFvq7O-HwLPc1QNcso-1" value="Headquarter Staff" style="html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="320" y="370" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qwpgbQNBWTNlS4yelDbo-0" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="07rFvq7O-HwLPc1QNcso-1" target="ez880dVHIVuCgmiljGzb-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="310" as="sourcePoint" />
+            <mxPoint x="490" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qwpgbQNBWTNlS4yelDbo-1" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="07rFvq7O-HwLPc1QNcso-0" target="ez880dVHIVuCgmiljGzb-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="310" as="sourcePoint" />
+            <mxPoint x="490" y="310" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
