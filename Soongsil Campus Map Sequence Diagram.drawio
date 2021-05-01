@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-01T14:57:14.000Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="aJk5i_QqK0gTzRjNvTHK" version="14.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-01T14:58:41.127Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="f0itbzM7qy_KO_jY0agn" version="14.6.9" type="github">
   <diagram id="dvubAqMYufWWw5VFHjV8" name="Page-1">
     <mxGraphModel dx="1131" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -101,7 +101,7 @@
           <mxGeometry x="120" y="820" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="R5h7LsnZrycsHY_8FVYa-15" value=": Map" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="320" y="820" width="100" height="300" as="geometry" />
+          <mxGeometry x="290" y="820" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="R5h7LsnZrycsHY_8FVYa-16" value=": Memo" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="500" y="820" width="100" height="300" as="geometry" />
@@ -132,6 +132,33 @@
         </mxCell>
         <mxCell id="R5h7LsnZrycsHY_8FVYa-35" value=": Posting" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="490" y="1190" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="R5h7LsnZrycsHY_8FVYa-36" value="Kakao Map api" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="820" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="R5h7LsnZrycsHY_8FVYa-37" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="510" as="sourcePoint" />
+            <mxPoint x="190" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5h7LsnZrycsHY_8FVYa-38" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="69.5" y="892" as="sourcePoint" />
+            <mxPoint x="169.5" y="892" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5h7LsnZrycsHY_8FVYa-39" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="R5h7LsnZrycsHY_8FVYa-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="1260" as="sourcePoint" />
+            <mxPoint x="160" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5h7LsnZrycsHY_8FVYa-40" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="64.5" y="1649" as="sourcePoint" />
+            <mxPoint x="169.5" y="1649" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
