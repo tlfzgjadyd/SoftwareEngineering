@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2021-05-11T18:58:14.421Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="E155tBXmVaiIniRr1OMm" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-11T19:05:15.000Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="1ZwNRFWEadmeM5HlmS4R" version="14.6.11" type="github">
   <diagram id="Zy-k48dtFLS5Jo9g7Rwp" name="Page-1">
     <mxGraphModel dx="1131" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="o2fJaP_Ebw-GUPPnb6yE-1" value="FileManager" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="o2fJaP_Ebw-GUPPnb6yE-1" value="FileManager" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f5f5f5;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="20" y="41" width="140" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="o2fJaP_Ebw-GUPPnb6yE-5" value="Component" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="o2fJaP_Ebw-GUPPnb6yE-5" value="Component" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="200" y="39" width="226" height="130" as="geometry" />
         </mxCell>
         <mxCell id="o2fJaP_Ebw-GUPPnb6yE-6" value="+ add(Component) : void&#xa;+ delete(Component) : void&#xa;+ changeName(name, newName): void&#xa;+ changeContent(name, newContent)&#xa;+ display():void&#xa;+ getChild(int): Component&#xa;+ getSize(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="o2fJaP_Ebw-GUPPnb6yE-5">
@@ -81,13 +81,13 @@
             <mxPoint x="150" y="470.6075219975602" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o2fJaP_Ebw-GUPPnb6yE-32" value="File" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;fontColor=#3B3B3B;" vertex="1" parent="1">
+        <mxCell id="o2fJaP_Ebw-GUPPnb6yE-32" value="File" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="20" y="292" width="250" height="130" as="geometry" />
         </mxCell>
         <mxCell id="o2fJaP_Ebw-GUPPnb6yE-33" value="- name : String&#xa;- content : String&#xa;- size: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="o2fJaP_Ebw-GUPPnb6yE-32">
           <mxGeometry y="26" width="250" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="o2fJaP_Ebw-GUPPnb6yE-34" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="o2fJaP_Ebw-GUPPnb6yE-32">
+        <mxCell id="o2fJaP_Ebw-GUPPnb6yE-34" value="" style="line;strokeWidth=1;fillColor=#ffe6cc;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#d79b00;" vertex="1" parent="o2fJaP_Ebw-GUPPnb6yE-32">
           <mxGeometry y="80" width="250" height="8" as="geometry" />
         </mxCell>
         <mxCell id="o2fJaP_Ebw-GUPPnb6yE-35" value="+ display(): void&#xa;+ getSize(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="o2fJaP_Ebw-GUPPnb6yE-32">
@@ -102,20 +102,80 @@
             <mxPoint x="203" y="291.6075219975602" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o2fJaP_Ebw-GUPPnb6yE-43" value="Folder" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;fontColor=#3B3B3B;" vertex="1" parent="1">
+        <mxCell id="o2fJaP_Ebw-GUPPnb6yE-43" value="Folder" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="290" y="270" width="250" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="o2fJaP_Ebw-GUPPnb6yE-44" value="- name : String&#xa;- content : String[]&#xa;- size: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="o2fJaP_Ebw-GUPPnb6yE-43">
+        <mxCell id="o2fJaP_Ebw-GUPPnb6yE-44" value="- name : String&#xa;- content : String&#xa;- size: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="o2fJaP_Ebw-GUPPnb6yE-43">
           <mxGeometry y="26" width="250" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="o2fJaP_Ebw-GUPPnb6yE-45" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="o2fJaP_Ebw-GUPPnb6yE-43">
+        <mxCell id="o2fJaP_Ebw-GUPPnb6yE-45" value="" style="line;strokeWidth=1;fillColor=#ffe6cc;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#d79b00;" vertex="1" parent="o2fJaP_Ebw-GUPPnb6yE-43">
           <mxGeometry y="80" width="250" height="8" as="geometry" />
         </mxCell>
         <mxCell id="o2fJaP_Ebw-GUPPnb6yE-46" value="+ add(Component) : void&#xa;+ delete(Component) : void&#xa;+ changeName(name, newName) : void&#xa;+ changeContent(name, newContent) : void&#xa;+ display():void&#xa;+ getChild(int): Component&#xa;+ getSize() : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="o2fJaP_Ebw-GUPPnb6yE-43">
           <mxGeometry y="88" width="250" height="112" as="geometry" />
         </mxCell>
-        <mxCell id="o2fJaP_Ebw-GUPPnb6yE-51" value="&lt;div&gt;&lt;font color=&quot;#5c5c5c&quot; style=&quot;font-size: 12px&quot;&gt;&lt;b&gt;&amp;lt; explanation &amp;gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#5c5c5c&quot; style=&quot;font-size: 11px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#5c5c5c&quot; style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp;If a file manager uses a component, it can be replaced by files and folders that are the&amp;nbsp; &amp;nbsp;component&#39;s children due to object-oriented program characteristics. The&amp;nbsp; &amp;nbsp;folder(=composite)&amp;nbsp; &amp;nbsp;has several components as children. The display(), getSize() function&amp;nbsp; &amp;nbsp;that enters the folder is&amp;nbsp; &amp;nbsp;delegated to the children of the folder. and If the command&amp;nbsp; &amp;nbsp;reaches the file(=leaf), it performs&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;without delegation.&amp;nbsp;The implementation of functions in&amp;nbsp; &amp;nbsp;folders and files is different, but the&amp;nbsp; &amp;nbsp;usage&amp;nbsp; &amp;nbsp;is the same, so we can treat them in same&amp;nbsp; &amp;nbsp;way without distinction. Folder can also&amp;nbsp; &amp;nbsp;have&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(92 , 92 , 92)&quot;&gt;Folder itself for children. And this recursive&amp;nbsp; &amp;nbsp;structure could continue to grow.&lt;/span&gt;&lt;/div&gt;" style="shape=note;size=10;whiteSpace=wrap;html=1;align=left;strokeColor=#8C8C8C;" vertex="1" parent="1">
-          <mxGeometry x="720" y="160" width="480" height="151" as="geometry" />
+        <mxCell id="o2fJaP_Ebw-GUPPnb6yE-51" value="&lt;div&gt;&lt;font color=&quot;#5c5c5c&quot; style=&quot;font-size: 12px&quot;&gt;&lt;b&gt;&amp;nbsp;&amp;lt; explanation &amp;gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#5c5c5c&quot; style=&quot;font-size: 11px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#5c5c5c&quot; style=&quot;font-size: 11px&quot;&gt;&amp;nbsp; &amp;nbsp;If a file manager uses a component, it can be replaced by files and folders that are the&amp;nbsp; &amp;nbsp;component&#39;s children due to object-oriented program characteristics. The folder(=composite)&amp;nbsp; &amp;nbsp;has several components as children. The display(), getSize() function&amp;nbsp; &amp;nbsp;that enters the folder is&amp;nbsp; &amp;nbsp;delegated to the children of the folder. and If the command&amp;nbsp; &amp;nbsp;reaches the file(=leaf), it performs&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;without delegation. The implementation of functions in folders and files is different, but the usage&amp;nbsp; &amp;nbsp;is the same, so we can treat them in same way without distinction. Folder can also&amp;nbsp; &amp;nbsp;have&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(92 , 92 , 92)&quot;&gt;Folder&amp;nbsp; &amp;nbsp;itself for children. And this recursive structure could continue to grow.&lt;/span&gt;&lt;/div&gt;" style="shape=note;size=10;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="30" y="620" width="480" height="141" as="geometry" />
+        </mxCell>
+        <mxCell id="o2fJaP_Ebw-GUPPnb6yE-52" value="Folder" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="282.5" y="835" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o2fJaP_Ebw-GUPPnb6yE-53" value="" style="endArrow=classic;html=1;fontSize=12;fontColor=#3B3B3B;startSize=12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="o2fJaP_Ebw-GUPPnb6yE-52" target="o2fJaP_Ebw-GUPPnb6yE-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="472.5" y="935" as="sourcePoint" />
+            <mxPoint x="522.5" y="885" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o2fJaP_Ebw-GUPPnb6yE-54" value="Folder" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="172.5" y="905" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o2fJaP_Ebw-GUPPnb6yE-55" value="File" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#fff2cc;strokeColor=#FFCF5E;" vertex="1" parent="1">
+          <mxGeometry x="282.5" y="905" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o2fJaP_Ebw-GUPPnb6yE-57" value="File" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#fff2cc;strokeColor=#FFCF5E;" vertex="1" parent="1">
+          <mxGeometry x="102.5" y="965" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o2fJaP_Ebw-GUPPnb6yE-58" value="File" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#fff2cc;strokeColor=#FFCF5E;" vertex="1" parent="1">
+          <mxGeometry x="186.5" y="965" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o2fJaP_Ebw-GUPPnb6yE-59" value="File" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#fff2cc;strokeColor=#FFCF5E;" vertex="1" parent="1">
+          <mxGeometry x="268.5" y="965" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o2fJaP_Ebw-GUPPnb6yE-60" value="File" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#fff2cc;strokeColor=#FFCF5E;" vertex="1" parent="1">
+          <mxGeometry x="362.5" y="905" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o2fJaP_Ebw-GUPPnb6yE-61" value="" style="endArrow=classic;html=1;fontSize=12;fontColor=#3B3B3B;startSize=12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o2fJaP_Ebw-GUPPnb6yE-52" target="o2fJaP_Ebw-GUPPnb6yE-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="327.5" y="875" as="sourcePoint" />
+            <mxPoint x="217.5" y="915" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o2fJaP_Ebw-GUPPnb6yE-62" value="" style="endArrow=classic;html=1;fontSize=12;fontColor=#3B3B3B;startSize=12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="o2fJaP_Ebw-GUPPnb6yE-52" target="o2fJaP_Ebw-GUPPnb6yE-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="327.5" y="875" as="sourcePoint" />
+            <mxPoint x="327.5" y="915" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o2fJaP_Ebw-GUPPnb6yE-63" value="" style="endArrow=classic;html=1;fontSize=12;fontColor=#3B3B3B;startSize=12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="o2fJaP_Ebw-GUPPnb6yE-54" target="o2fJaP_Ebw-GUPPnb6yE-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="327.5" y="875" as="sourcePoint" />
+            <mxPoint x="217.5" y="915" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o2fJaP_Ebw-GUPPnb6yE-64" value="" style="endArrow=classic;html=1;fontSize=12;fontColor=#3B3B3B;startSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="o2fJaP_Ebw-GUPPnb6yE-54" target="o2fJaP_Ebw-GUPPnb6yE-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="217.5" y="945" as="sourcePoint" />
+            <mxPoint x="147.5" y="975" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o2fJaP_Ebw-GUPPnb6yE-65" value="" style="endArrow=classic;html=1;fontSize=12;fontColor=#3B3B3B;startSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o2fJaP_Ebw-GUPPnb6yE-54" target="o2fJaP_Ebw-GUPPnb6yE-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="217.5" y="945" as="sourcePoint" />
+            <mxPoint x="226.83333333333326" y="975" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o2fJaP_Ebw-GUPPnb6yE-67" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontColor=#3B3B3B;fillColor=none;strokeColor=#5C5C5C;" vertex="1" parent="1">
+          <mxGeometry x="77.5" y="820" width="385" height="195" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
