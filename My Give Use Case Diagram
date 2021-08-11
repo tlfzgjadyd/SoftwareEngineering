@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-11T01:19:09.963Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="V410IgiAi_6wMtNmLjIp" version="14.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-11T01:51:21.212Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="2oRGjhAf9uaBeIockzWV" version="14.9.6" type="github">
   <diagram id="HK40Byvpovg10b-SNLFH" name="Page-1">
     <mxGraphModel dx="1131" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -477,6 +477,9 @@
             <mxPoint x="420" y="870" as="sourcePoint" />
             <mxPoint x="502" y="1045" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="tFsmnrozFwJkyuSibnmW-174" value="Whether it is a banner post or a regular post is distinguished by the post ID.&lt;br&gt;&lt;br&gt;The banner sort order follows the banner sort number column." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="612" y="90" width="211" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
